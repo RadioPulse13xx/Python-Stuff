@@ -1,0 +1,6 @@
+print('Scamazon Warehouse')
+weeklyhours=input("Enter Hours: ")
+payrate=input("Enter pay rate per hour: ")
+payout=float(weeklyhours)*float(payrate)
+print()
+print("Weekly pay: ", payout)

@@ -1,0 +1,11 @@
+print("Introduction to Tardigrades")
+print()
+students = {'Bob': 88, 'Lucy':79, 'Tracey':94}
+k = input("Name: ")
+students[k]=int(input("Score: "))
+print()
+print("New Student Information")
+print()
+print("%-8s%8s"%("Name","Score"))
+print("%-8s%8s"%("----","-----"))
+print("%-8s%8s"%(k,students[k]))
